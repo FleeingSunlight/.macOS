@@ -55,4 +55,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'yuttie/comfortable-motion.vim'
   Plug 'rust-lang/rust.vim'
   Plug 'jiangmiao/auto-pairs'
+  Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
