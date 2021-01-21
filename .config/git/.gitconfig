@@ -1,0 +1,13 @@
+[user]
+  name =
+  email =
+[includeIf "gitdir:~/Projects/fleeingsunlight/"]
+  path = ~/.config/git/.gitconfig-fleeingsunlight
+[core]
+  editor = nvim
+  excludesfile = ~/.config/git/.gitignore-macOS
+[credential]
+  helper = osxkeychain
+  useHttpPath = true
+[init]
+	defaultBranch = main
