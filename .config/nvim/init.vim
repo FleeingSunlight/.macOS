@@ -44,7 +44,7 @@ nmap s <Plug>(easymotion-s2)
 nmap t <Plug>(easymotion-t2)
 
 call plug#begin('~/.vim/plugged')
-	Plug 'easymotion/vim-easymotion'
+  Plug 'easymotion/vim-easymotion'
   Plug 'neoclide/coc.nvim', { 'branch': 'release' }
   Plug 'unblevable/quick-scope'
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -54,4 +54,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
   Plug 'yuttie/comfortable-motion.vim'
   Plug 'rust-lang/rust.vim'
+  Plug 'jiangmiao/auto-pairs'
 call plug#end()
