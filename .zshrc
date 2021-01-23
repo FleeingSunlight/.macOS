@@ -15,5 +15,6 @@ alias cat='bat --paging=never'
 alias fs="cd ~/Projects/fleeingsunlight"
 SPACESHIP_DIR_TRUNC_REPO=false
 SPACESHIP_KUBECTL_SHOW=true
+SPACESHIP_CHAR_SYMBOL="$ "
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
