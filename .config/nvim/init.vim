@@ -36,6 +36,9 @@ endfunction
 let g:qs_highlight_on_keys = ['f', 'F']
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
+let g:prettier#config#print_width = 120
+let g:prettier#config#tab_width = 2
+let g:prettier#config#use_tabs = "false"
 inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 nnoremap <esc> :noh<return><esc>
 let g:comfortable_motion_scroll_down_key = "j"
