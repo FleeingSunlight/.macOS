@@ -11,7 +11,7 @@ source $ZSH/oh-my-zsh.sh
 alias v="nvim"
 alias vi="nvim"
 alias vim="nvim"
-alias cat='bat --paging=never'
+# alias cat='bat --paging=never'
 alias fs="cd ~/Projects/fleeingsunlight"
 SPACESHIP_DIR_TRUNC_REPO=false
 SPACESHIP_CHAR_SYMBOL="$ "
