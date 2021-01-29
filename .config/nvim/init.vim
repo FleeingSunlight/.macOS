@@ -59,5 +59,4 @@ call plug#begin('~/.vim/plugged')
   Plug 'rust-lang/rust.vim'
   Plug 'jiangmiao/auto-pairs'
   Plug 'ntpeters/vim-better-whitespace'
-  Plug 'garbas/vim-snipmate'
 call plug#end()
