@@ -1,3 +1,4 @@
+set mouse=a
 syntax on
 set tabstop=2
 set shiftwidth=2
@@ -59,4 +60,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'rust-lang/rust.vim'
   Plug 'jiangmiao/auto-pairs'
   Plug 'ntpeters/vim-better-whitespace'
+  Plug 'preservim/nerdcommenter'
 call plug#end()

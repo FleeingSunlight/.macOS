@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
-ZSH_THEME="spaceship"
+ZSH_THEME="afowler"
 plugins=(
   git
   zsh-completions
@@ -18,3 +18,4 @@ SPACESHIP_CHAR_SYMBOL="$ "
 SPACESHIP_GIT_PREFIX=":: "
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=3"
